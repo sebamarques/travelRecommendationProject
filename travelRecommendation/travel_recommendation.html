@@ -22,13 +22,15 @@
             <li class="link"><a href="contactUs.html">Contact Us</a></li>
         </ul>
         <div class="search">
-            <input type="text" placeholder="Enter a destination or a keyword">
-            <button class="btn">Search</button>
-            <button class="btn">Clear</button>
+            <input type="text" placeholder="Enter a destination or a keyword" id="buscador">
+            <button class="btn" onclick="buscar()">Search</button>
+            <button class="btn" onclick="borrarContenido()">Clear</button>
         </div>
     </navbar>
     <main>
-       
+       <div id="resultadoBusqueda">
+
+       </div>
         <div class="main__information">
             <h1>Explore Dream Destination</h1>
             <p>it encourages exploration of unfamiliar territories, embracing diverse cultures and landscapes, while pursuing

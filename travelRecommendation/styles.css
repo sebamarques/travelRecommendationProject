@@ -150,13 +150,34 @@ navbar{
       }
     
 
+    .ourTeam{
+      display: flex;
+      flex-direction: row;
+    }
+    .ourTeam h2{
+      margin: auto 0;
+      font-size: 4rem;
+    }
     .ourTeam__names{
       display: flex;
       flex-direction: row;
     }
+    .ourTeamPeople{
+      display: flex;
+      flex-direction: column;
+      background: rgb(0,0,0,30%);
+    }
     .ourTeam__name{
-      
+      font-weight: bold;
+      font-size: 1.3rem;
+    }
+    .common{
+      font-weight: 300;
+      width: 60%;
     }
     .ourTeam__position{
-
+      background-color: #244ccf;
+      border: 1px solid white;
+      border-radius: 5px;
+      text-align: center;
     }
