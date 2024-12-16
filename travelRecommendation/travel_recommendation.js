@@ -61,7 +61,7 @@ function buscar(){
                 mostrar.innerHTML = agregarContenido;
                 agregarContenido = "";
             }
-        })        
+        })
     })
-
 }
+
